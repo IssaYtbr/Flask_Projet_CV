@@ -8,7 +8,7 @@ def home():
 
 @app.route('/resume_1')
 def resume_1():
-    return render_template("resume_1.html") #comme
+    return render_template("resume_1.html") #commeunelettrealaposte
 
 @app.route('/resume_2')
 def resume_2():
